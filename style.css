@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background-image: url(assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    height: 100vh;
+}
+
+/* navbar */
+section[aria-label="navbar"]{
+    background-color: #000;
+    position: relative;
+    height: 12%;
+}
+
+.navbar{
+    height: 100%;
+}
+
+.navbar>div{
+    display: inline-block;
+}
+
+.navbar img{
+    width: 100px;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+
+.navbar .line{
+    position: absolute;
+    left: 230px;
+    top: 15px;
+    background-color: #fff;
+    height: 50%;
+    width: 3px;
+}
+
+.grow-list{
+    position: absolute;
+    left: 300px;
+    top: 25px;
+     width: 50%;
+}
+
+.list{
+    width: 100%;
+}
+
+.list:after {
+    position: absolute;
+    left: 50px;
+    top: 8px;
+    content: "";
+    height: 4px;
+    width: 4px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(45deg);
+  }
+
+  .list-item{
+    display: inline-block;
+    margin-right: 50px;
+  }
+
+.navbar div:last-child{
+    width: 10%;
+    position: absolute;
+    top: 25px;
+    right: 60px;
+}
+
+.button-small{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    width: 70%;
+    background-color: #BA0CC5;
+}
+
+
+/* Hero */
+section[aria-label="hero"]{
+    height: 88%;
+    position: relative;
+   }
+
+.hero{
+    height: 80%;
+   }
+
+.hero-heading{
+    position: absolute;
+    left: 300px;
+    top: 110px;
+    width: 60%;
+    font-size: 75px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.hero-description{
+    position: absolute;
+    top: 270px;
+    left: 450px;
+    position: absolute;
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.button-large{
+    position: absolute;
+    bottom: 220px;
+    left: 580px;
+    background-color: #BA0CC5;
+    padding: 10px 40px;
+    font-size: 25px;
+    border-radius: 8px;
+    border: none;
+}
