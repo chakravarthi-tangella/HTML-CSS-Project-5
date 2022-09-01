@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
 *{
     padding: 0;
     margin: 0;
@@ -24,7 +26,7 @@ body{
 section[aria-label="navbar"]{
     background-color: #000;
     position: relative;
-    height: 12%;
+    height: 10%;
 }
 
 .navbar{
@@ -36,16 +38,16 @@ section[aria-label="navbar"]{
 }
 
 .navbar img{
-    width: 100px;
+    width: 150px;
     position: absolute;
     left: 70px;
-    top: 20px;
+    top: 30px;
 }
 
 .navbar .line{
     position: absolute;
-    left: 230px;
-    top: 15px;
+    left: 250px;
+    top: 30px;
     background-color: #fff;
     height: 50%;
     width: 3px;
@@ -54,30 +56,29 @@ section[aria-label="navbar"]{
 .grow-list{
     position: absolute;
     left: 300px;
-    top: 25px;
-     width: 50%;
+    top: 40px;
+    width: 50%;
 }
 
 .list{
     width: 100%;
 }
 
-.list:after {
+  .list:after {
     position: absolute;
-    left: 50px;
-    top: 8px;
-    content: "";
-    height: 4px;
-    width: 4px;
-    border-style: solid;
-    border-color: #fff;
-    border-width: 0px 2px 2px 0px;
-    transform: rotate(45deg);
+    left: 70px;
+    top: 6px;
+    content: "\f107";
+    font-weight: 700;
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.5rem;
+    color: #fff;
   }
 
   .list-item{
     display: inline-block;
     margin-right: 50px;
+    font-size: 1.5rem;
   }
 
 .navbar div:last-child{
@@ -88,10 +89,10 @@ section[aria-label="navbar"]{
 }
 
 .button-small{
-    padding: 5px 10px;
+    font-size: 1.5rem;
+    padding: 5px 15px;
     border-radius: 5px;
     border: none;
-    width: 70%;
     background-color: #BA0CC5;
 }
 
@@ -107,32 +108,33 @@ section[aria-label="hero"]{
    }
 
 .hero-heading{
+    width: 70%;
+    font-size: 7rem;
+    text-align: center;
+    line-height: 7rem;
     position: absolute;
     left: 300px;
-    top: 110px;
-    width: 60%;
-    font-size: 75px;
-    text-align: center;
-    line-height: 70px;
+    top: 15%;
+    
 }
 
 .hero-description{
     position: absolute;
-    top: 270px;
-    left: 450px;
+    top: 45%;
+    left: 25%;
     position: absolute;
-    width: 40%;
+    width: 50%;
     text-align: center;
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 
 .button-large{
     position: absolute;
-    bottom: 220px;
-    left: 580px;
+    bottom: 30%;
+    left: 40%;
     background-color: #BA0CC5;
-    padding: 10px 40px;
-    font-size: 25px;
+    padding: 1rem 3rem;
+    font-size: 2rem;
     border-radius: 8px;
     border: none;
 }
